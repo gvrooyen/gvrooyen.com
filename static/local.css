@@ -13,3 +13,7 @@
 .bio_text {
     grid-area: 1 / 2 / 2 / 3;
 }
+
+a.active {
+    text-decoration: underline;
+}
