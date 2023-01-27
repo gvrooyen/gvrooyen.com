@@ -1,5 +1,5 @@
 <section>
-    <img src="bergriviernek.jpg" alt="The vista from the top of Bergriviernek" width="40%" style="float:left; margin-right:2%;
+    <img src="bergriviernek.jpg" alt="The vista from the top of Bergriviernek" width="50%" style="float:left; margin-right:2%;
     margin-top:1ex; margin-bottom=1ex;"/>
     <p>I live in <a href="https://en.wikipedia.org/wiki/Somerset_West">Somerset West</a>, a town not far from
     <a href="https://en.wikipedia.org/wiki/Cape_Town">Cape Town</a>, South Africa, together with my wife and two children.
