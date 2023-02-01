@@ -17,7 +17,7 @@
     <h2 id="contact">Contact</h2>
     <p>My email address is <a href="mailto:g-j@octoco.ltd">g-j@octoco.ltd</a>, and you are always more than welcome to contact
         me.</p>
-    <p>You can also find me on <a href="https://c.im/@gvrooyen">Mastodon</a>, <a href=
+    <p>You can also find me on <a rel="me" href="https://c.im/@gvrooyen">Mastodon</a>, <a href=
     "https://linkedin.com/in/gvrooyen/">LinkedIn</a>, <a href="https://scholar.google.com/citations?user=dntdoWsAAAAJ">Google
     Scholar</a>, <a href="https://medium.com/@gvrooyen_22259/about">Medium</a>, and <a href=
     "https://github.com/gvrooyen">GitHub</a>.</p>
