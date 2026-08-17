@@ -3,7 +3,7 @@
 </section>
 <section>
     <details open>
-        <summary role="button">Executive Chairman at <b>Octoco</b></summary>
+        <summary>Executive Chairman at <b>Octoco</b></summary>
         <p>In early 2020, just before South Africa entered hard lockdown during the COVID pandemic, I started a tiny engineering
             consultancy with <a href="https://www.linkedin.com/in/hdelange/">Heinrich de Lange</a> just to share some overheads
             and clients. Before we knew it, <a href="https://octoco.ltd">Octoco Consulting</a> grew into a formidable team,
@@ -14,23 +14,23 @@
         board advisory services, investment readiness support, and tech due diligence support.</p>
     </details>
     <details>
-        <summary role="button">CEO at <b>Fanfire</b></summary>
+        <summary>CEO at <b>Fanfire</b></summary>
         <p>Through <a href="https://octoco.ltd">Octoco</a> I've been supporting the <a href="https://www.alphawave.co.za/">Alphawave
                 Group</a> with Innovation Management for a number of years. I led the conception of 
             <a href="https://scoutcloud.ai/">Scout</a>, from which <a href="https://bytefuse.ai/">ByteFuse</a> spun out.
-            Currently I lead <a href="https://fanfire.ai/">Fanfire</a> &mdash; a company that uses emerging
+            Currently I lead <a href="https://fanfire.ai/">Fanfire</a> — a company that uses emerging
             <a href="https://en.wikipedia.org/wiki/Web3">Web3</a> technologies to support mainstream businesses
-            outside of what would generally be considered &ldquo;crypto&rdquo;.</p>
-        <p>Fanfire has helped commercialize the &ldquo;impossible&rdquo; land art of <a href="https://www.strijdom52.com/">
+            outside of what would generally be considered "crypto".</p>
+        <p>Fanfire has helped commercialize the "impossible" land art of <a href="https://www.strijdom52.com/">
                 Strijdom van der Merwe</a>, introduced a new way of collecting fine wine with
             <a href="https://vaulted.wine">Vaulted Wine</a>, and has made the creation of new NFT marketplaces affordable
             and fast with <a href="https://www.bodega.host/">Bodega</a>.</p>
     </details>
     <details>
-        <summary role="button">Co-Founder and Director at <b>Custos Media Technologies</b></summary>
+        <summary>Co-Founder and Director at <b>Custos Media Technologies</b></summary>
         <p>In 2013, during my tenure as Associate Professor in Electronic Engineering at <a href="https://www.sun.ac.za/">Stellenbosch 
         University</a>, we patented a technique to use blockchain bounties directly embedded into media files as a
-    a way to trace the origin of piracy. This turned out to be one of the earliest patents describing a use case
+    way to trace the origin of piracy. This turned out to be one of the earliest patents describing a use case
     for what today would be called <a href="https://en.wikipedia.org/wiki/Non-fungible_token">NFTs</a>. The patent
     showed commercial value, and we spun out <a href="https://custostech.com/">Custos Media Technologies</a>. When the startup
     raised sufficient funding I resigned my academic position to lead Custos full-time. I stepped down as CEO in 2020, just
@@ -43,7 +43,7 @@
         types of media as well.</p>
     </details>
     <details>
-        <summary role="button">Extra-Ordinary Associate Professor in Industrial Engineering at <b>Stellenbosch University</b></summary>
+        <summary>Extra-Ordinary Associate Professor in Industrial Engineering at <b>Stellenbosch University</b></summary>
         <p>In 2020 I briefly returned to <a href="https://www.sun.ac.za/">Stellenbosch University</a> as the 
             Research Chair in the Internet of Things. However, <a href="https://octoco.ltd/">Octoco</a> soon started
             growing rapidly and we co-founded <a href="https://fanfire.ai/">Fanfire</a>, where I took the helm. It
@@ -54,16 +54,16 @@
         topics as a small part of the Manufacturing Systems 314 module.</p>
     </details>
     <details>
-        <summary role="button">Co-Founder of the <b>Media Lab</b> at Stellenbosch University</summary>
+        <summary>Co-Founder of the <b>Media Lab</b> at Stellenbosch University</summary>
         <p>In 2007, Stellenbosch University was approached by <a href="https://naspers.com/">Naspers</a> to drive postgraduate
-            research in the emerging field of “New Media” &mdash; what we would today call Social Media and “Web2” technologies.
+            research in the emerging field of “New Media” — what we would today call Social Media and “Web2” technologies.
             We set up a lab that worked on pre-commercial applied research on topics such as Augmented Reality, Gaming, E-Commerce,
         Broadband Connectivity, Computer Vision and Machine Learning. The lab itself was run a bit like a startup, and had a
         very strong focus on tech entrepreneurship.</p>
         <p>Today, the lab's alumni hold (sometimes very senior) positions with global leaders like 
-            <a href="https://www.deepmind.com/">Deepmind</a>, <a href="https://youtube.com/">YouTube</a>, 
+            <a href="https://www.deepmind.com/">DeepMind</a>, <a href="https://youtube.com/">YouTube</a>, 
             <a href="https://sourcegraph.com">SourceGraph</a>, <a href="https://www.google.com">Google</a> and 
-        <a href="https://www.aws.com/">Amazon Web Services</a>.</p>
+        <a href="https://aws.amazon.com/">Amazon Web Services</a>.</p>
         <p>In 2013, <a href="https://www.linkedin.com/in/herman-engelbrecht-20828819">Prof Herman Engelbrecht</a> (my co-director at the 
             Lab), <a href="https://www.linkedin.com/in/fjlutz/">Fred Lutz</a> (then a Master's student in the Lab) and myself
             invented and patented the core blockchain technology underpinning <a href="https://custostech.com/">Custos Media

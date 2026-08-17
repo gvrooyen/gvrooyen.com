@@ -1,6 +1,6 @@
 <section>
     <div class="bio">
-        <div class="bio_pic"><img src="./gvrooyen.jpg" alt="G-J van Rooyen" width="200" height="200"></div>
+        <div class="bio_pic"><img src="/gvrooyen.jpg" alt="G-J van Rooyen" width="200" height="200"></div>
         <div class="bio_text">
             <p>Hi there! I'm Gert-Jan, or just G-J for short.</p>
             <p>I'm Executive Chairman at <a href="https://octoco.ltd">Octoco</a>, an engineering consultancy that I co-founded in Stellenbosch, South

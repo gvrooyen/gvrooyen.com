@@ -15,3 +15,7 @@ vite.config.ts.timestamp-*
 /.prettierrc
 
 .vercel
+
+# Amp orb artifacts
+.amp/portal-proxy.mjs
+test-results/

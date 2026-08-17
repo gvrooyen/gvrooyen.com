@@ -1,11 +1,15 @@
 <script>
     import { page } from '$app/stores';
+
     let about = "";
     let professional = "";
     let personal = "";
-    if ( $page.url.pathname==='/' ) { about="active" }
-    else if ( $page.url.pathname==='/professional' ) { professional="active" }
-    else if ( $page.url.pathname==='/personal' ) { personal="active" };
+
+    $: {
+        about = $page.url.pathname === '/' ? 'active' : '';
+        professional = $page.url.pathname === '/professional' ? 'active' : '';
+        personal = $page.url.pathname === '/personal' ? 'active' : '';
+    }
 </script>
 
 <header class="container">
