@@ -13,7 +13,5 @@ vite.config.ts.timestamp-*
 /.npmrc
 /.prettierignore
 /.prettierrc
-/package-lock.json
-/package.json
 
 .vercel

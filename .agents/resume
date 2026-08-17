@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Orb resume for gvrooyen.com — fast, idempotent reconnect steps.
+# Runs every time a paused orb wakes.
+
+repo_root="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$repo_root"
+
+# Re-check that dependencies are present (e.g. after a snapshot restore).
+if [ ! -d node_modules ]; then
+  npm ci --no-audit --no-fund
+fi
+
+echo '[resume] ready.'

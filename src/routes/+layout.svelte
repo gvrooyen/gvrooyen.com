@@ -33,6 +33,6 @@
 <main class="container"><slot></slot></main>
 
 <footer class="container">
-    <p>© 2023 G-J van Rooyen</p>
+    <p>© 2026 G-J van Rooyen</p>
 </footer>
 
