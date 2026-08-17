@@ -18,4 +18,5 @@ vite.config.ts.timestamp-*
 
 # Amp orb artifacts
 .amp/portal-proxy.mjs
+.amp/portals/
 test-results/

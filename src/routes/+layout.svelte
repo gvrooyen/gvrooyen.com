@@ -1,15 +1,7 @@
 <script>
-    import { page } from '$app/stores';
+    import { page } from '$app/state';
 
-    let about = "";
-    let professional = "";
-    let personal = "";
-
-    $: {
-        about = $page.url.pathname === '/' ? 'active' : '';
-        professional = $page.url.pathname === '/professional' ? 'active' : '';
-        personal = $page.url.pathname === '/personal' ? 'active' : '';
-    }
+    let { children } = $props();
 </script>
 
 <header class="container">
@@ -19,13 +11,13 @@
         </ul>
         <ul>
             <li>
-                <a href="/" class="{about}">About</a>
+                <a href="/" class:active={page.url.pathname === '/'}>About</a>
             </li>
             <li>
-                <a href="/professional" class="{professional}">Professional</a>
+                <a href="/professional" class:active={page.url.pathname === '/professional'}>Professional</a>
             </li>
             <li>
-                <a href="/personal" class="{personal}">Personal</a>
+                <a href="/personal" class:active={page.url.pathname === '/personal'}>Personal</a>
             </li>
             <li>
                 <a href="/#contact">Contact</a>
@@ -34,9 +26,8 @@
     </nav>
 </header>
 
-<main class="container"><slot></slot></main>
+<main class="container">{@render children()}</main>
 
 <footer class="container">
     <p>© 2026 G-J van Rooyen</p>
 </footer>
-

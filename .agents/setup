@@ -1,13 +1,20 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Orb setup for gvrooyen.com — a SvelteKit 1.x static site.
+# Orb setup for gvrooyen.com — a SvelteKit 2.x static site.
 # Runs once on a fresh orb (or when a snapshot is stale).
 
 repo_root="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$repo_root"
 
 step() { printf '\n\033[1m[setup] %s\033[0m\n' "$*"; }
+
+step "Ensure Node.js 24"
+if [ "$(node -p 'process.versions.node.split(".")[0]')" != "24" ]; then
+	npm install --global --force node@24
+	hash -r
+fi
+node --version
 
 step "Install npm dependencies"
 npm ci --no-audit --no-fund
@@ -20,5 +27,8 @@ npx svelte-kit sync
 
 step "Verify build"
 npm run build
+
+step "Start orb services and portals"
+amp orb services ensure
 
 echo '\n[setup] done.'
