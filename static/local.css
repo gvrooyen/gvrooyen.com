@@ -5,7 +5,7 @@ main.container {
 .bio {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-column-gap: 20px;
     grid-row-gap: 0px;
 }
@@ -18,6 +18,31 @@ main.container {
     grid-area: 1 / 2 / 2 / 3;
 }
 
+.bergriviernek {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    margin-right: 2%;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
 a.active {
     text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .bio {
+        grid-template-columns: 1fr;
+    }
+
+    .bio_pic,
+    .bio_text {
+        grid-area: auto;
+    }
+
+    .bergriviernek {
+        max-width: 100%;
+        float: none;
+    }
 }

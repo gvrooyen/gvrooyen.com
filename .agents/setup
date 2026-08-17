@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Orb setup for gvrooyen.com — a SvelteKit 1.x static site.
+# Runs once on a fresh orb (or when a snapshot is stale).
+
+repo_root="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$repo_root"
+
+step() { printf '\n\033[1m[setup] %s\033[0m\n' "$*"; }
+
+step "Install npm dependencies"
+npm ci --no-audit --no-fund
+
+step "Install Playwright chromium browser"
+npx playwright install --with-deps chromium
+
+step "Generate SvelteKit types"
+npx svelte-kit sync
+
+step "Verify build"
+npm run build
+
+echo '\n[setup] done.'

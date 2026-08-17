@@ -1,6 +1,5 @@
 <section>
-    <img src="bergriviernek.jpg" alt="The vista from the top of Bergriviernek" width="50%" style="float:left; margin-right:2%;
-    margin-top:1ex; margin-bottom=1ex;"/>
+    <img src="/bergriviernek.jpg" alt="The vista from the top of Bergriviernek" width="2048" height="1536" class="bergriviernek" loading="lazy" />
     <p>I live in <a href="https://en.wikipedia.org/wiki/Somerset_West">Somerset West</a>, a town not far from
     <a href="https://en.wikipedia.org/wiki/Cape_Town">Cape Town</a>, South Africa, together with my wife and two children.
     We live high up in the foothills of the Helderberg Mountain, and it's a short run from our front door to the beautiful
