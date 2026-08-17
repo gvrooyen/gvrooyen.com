@@ -3,8 +3,8 @@
         <div class="bio_pic"><img src="/gvrooyen.jpg" alt="G-J van Rooyen" width="200" height="200"></div>
         <div class="bio_text">
             <p>Hi there! I'm Gert-Jan, or just G-J for short.</p>
-            <p>I'm Executive Chairman at <a href="https://octoco.ltd">Octoco</a>, an engineering consultancy that I co-founded in Stellenbosch, South
-                Africa. Through Octoco I work at other companies I co-founded, including <a href="https://custostech.com">Custos</a>
+            <p>I'm Director: Engineering &amp; Innovation at <a href="https://octoco.ltd">the Octoco Group</a>, a technology group based in Stellenbosch, South
+                Africa that I co-founded. Through the Octoco Group I work at other companies I co-founded, including <a href="https://custostech.com">Custos</a>
                 (information security) and <a href="https://fanfire.ai">Fanfire</a> (enterprise Web3
                 solutions).</p>
             <p>I spent nearly two decades in academia before moving into business, and retain my ties with <a href=
@@ -22,4 +22,3 @@
     Scholar</a>, <a href="https://medium.com/@gvrooyen_22259/about">Medium</a>, and <a href=
     "https://github.com/gvrooyen">GitHub</a>.</p>
 </section>
-

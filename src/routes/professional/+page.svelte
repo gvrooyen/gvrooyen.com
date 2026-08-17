@@ -3,19 +3,20 @@
 </section>
 <section>
     <details open>
-        <summary>Executive Chairman at <b>Octoco</b></summary>
-        <p>In early 2020, just before South Africa entered hard lockdown during the COVID pandemic, I started a tiny engineering
-            consultancy with <a href="https://www.linkedin.com/in/hdelange/">Heinrich de Lange</a> just to share some overheads
-            and clients. Before we knew it, <a href="https://octoco.ltd">Octoco Consulting</a> grew into a formidable team,
-        serving clients across four continents.</p>
-        <p>Octoco was originally conceived as an "outsourced CTO company" (hence the name) that provides a combination of
+        <summary>Director: Engineering &amp; Innovation at <b>the Octoco Group</b></summary>
+        <p>In early 2020, just before South Africa entered hard lockdown during the COVID pandemic,
+            <a href="https://www.linkedin.com/in/hdelange/">Heinrich de Lange</a> and I co-founded
+            <a href="https://octoco.ltd">the Octoco Group</a>, a technology group based in Stellenbosch, South Africa. We
+            initially planned only to share some overheads and clients, but before we knew it the company had grown into a
+        formidable team serving clients across four continents.</p>
+        <p>The Octoco Group was originally conceived as an "outsourced CTO company" (hence the name) that provides a combination of
             technology and business development support to clients who do not have an experienced full-time CEO. Today,
-            Octoco's services range from IoT design and software development, to C-level technology risk management,
+            the Octoco Group's services range from IoT design and software development, to C-level technology risk management,
         board advisory services, investment readiness support, and tech due diligence support.</p>
     </details>
     <details>
         <summary>CEO at <b>Fanfire</b></summary>
-        <p>Through <a href="https://octoco.ltd">Octoco</a> I've been supporting the <a href="https://www.alphawave.co.za/">Alphawave
+        <p>Through <a href="https://octoco.ltd">the Octoco Group</a> I've been supporting the <a href="https://www.alphawave.co.za/">Alphawave
                 Group</a> with Innovation Management for a number of years. I led the conception of 
             <a href="https://scoutcloud.ai/">Scout</a>, from which <a href="https://bytefuse.ai/">ByteFuse</a> spun out.
             Currently I lead <a href="https://fanfire.ai/">Fanfire</a> — a company that uses emerging
@@ -34,7 +35,7 @@
     for what today would be called <a href="https://en.wikipedia.org/wiki/Non-fungible_token">NFTs</a>. The patent
     showed commercial value, and we spun out <a href="https://custostech.com/">Custos Media Technologies</a>. When the startup
     raised sufficient funding I resigned my academic position to lead Custos full-time. I stepped down as CEO in 2020, just
-    before <a href="https://octoco.ltd">Octoco</a> was founded, but remain Director and technical advisor.</p>
+    before <a href="https://octoco.ltd">the Octoco Group</a> was founded, but remain Director and technical advisor.</p>
         <p>Custos embeds a cryptocurrency secret direct into a media file by using forensic watermarks. For example, the
         Custos system can be used to hide a secret associated with the identity of a movie reviewer who receives a
         copy of a film before cinematic release. If the movie &ldquo;leaks&rdquo;, any recipient of the pirate film
@@ -45,7 +46,7 @@
     <details>
         <summary>Extra-Ordinary Associate Professor in Industrial Engineering at <b>Stellenbosch University</b></summary>
         <p>In 2020 I briefly returned to <a href="https://www.sun.ac.za/">Stellenbosch University</a> as the 
-            Research Chair in the Internet of Things. However, <a href="https://octoco.ltd/">Octoco</a> soon started
+            Research Chair in the Internet of Things. However, <a href="https://octoco.ltd">the Octoco Group</a> soon started
             growing rapidly and we co-founded <a href="https://fanfire.ai/">Fanfire</a>, where I took the helm. It
         soon became clear that my industry work was not compatible with a full-time academic position, and I resigned my tenure
         for a second time 🙈.</p>

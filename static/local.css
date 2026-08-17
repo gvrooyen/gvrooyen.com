@@ -4,14 +4,20 @@ main.container {
 
 .bio {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: clamp(8rem, 18vw, 12rem) minmax(0, 1fr);
     grid-template-rows: auto;
-    grid-column-gap: 20px;
+    grid-column-gap: clamp(1.5rem, 4vw, 2.5rem);
     grid-row-gap: 0px;
 }
 
 .bio_pic {
     grid-area: 1 / 1 / 2 / 2;
+}
+
+.bio_pic img {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
 }
 
 .bio_text {
@@ -39,6 +45,11 @@ a.active {
     .bio_pic,
     .bio_text {
         grid-area: auto;
+    }
+
+    .bio_pic img {
+        width: min(12rem, 100%);
+        margin: 0 auto 1rem;
     }
 
     .bergriviernek {

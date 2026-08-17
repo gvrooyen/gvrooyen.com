@@ -6,8 +6,8 @@ test('index page has expected h2', async ({ page }) => {
 });
 
 for (const { path, link, content } of [
-	{ path: '/', link: 'About', content: "Hi there! I'm Gert-Jan" },
-	{ path: '/professional', link: 'Professional', content: 'Executive Chairman at Octoco' },
+	{ path: '/', link: 'About', content: 'Director: Engineering & Innovation at the Octoco Group' },
+	{ path: '/professional', link: 'Professional', content: 'Director: Engineering & Innovation at the Octoco Group' },
 	{ path: '/personal', link: 'Personal', content: 'I live in Somerset West' }
 ]) {
 	test(`${link} navigation is active on ${path}`, async ({ page }) => {
