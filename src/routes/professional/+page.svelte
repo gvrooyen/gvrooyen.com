@@ -1,9 +1,9 @@
 <section>
     <p>For my full professional profile, please have a look at my <a href="https://linkedin.com/in/gvrooyen/">LinkedIn</a> page.</p>
 </section>
-<section>
+<section class="professional-roles">
     <details open>
-        <summary>Director: Engineering &amp; Innovation at <b>the Octoco Group</b></summary>
+        <summary><span>Director: Engineering &amp; Innovation at <b>the Octoco Group</b></span></summary>
         <p>In early 2020, just before South Africa entered hard lockdown during the COVID pandemic,
             <a href="https://www.linkedin.com/in/hdelange/">Heinrich de Lange</a> and I co-founded
             <a href="https://octoco.ltd">the Octoco Group</a>, a technology group based in Stellenbosch, South Africa. We
@@ -15,7 +15,7 @@
         board advisory services, investment readiness support, and tech due diligence support.</p>
     </details>
     <details>
-        <summary>CEO at <b>Fanfire</b></summary>
+        <summary><span>CEO at <b>Fanfire</b></span></summary>
         <p>Through <a href="https://octoco.ltd">the Octoco Group</a> I've been supporting the <a href="https://www.alphawave.co.za/">Alphawave
                 Group</a> with Innovation Management for a number of years. I led the conception of 
             <a href="https://scoutcloud.ai/">Scout</a>, from which <a href="https://bytefuse.ai/">ByteFuse</a> spun out.
@@ -28,7 +28,7 @@
             and fast with <a href="https://www.bodega.host/">Bodega</a>.</p>
     </details>
     <details>
-        <summary>Co-Founder and Director at <b>Custos Media Technologies</b></summary>
+        <summary><span>Co-Founder and Director at <b>Custos Media Technologies</b></span></summary>
         <p>In 2013, during my tenure as Associate Professor in Electronic Engineering at <a href="https://www.sun.ac.za/">Stellenbosch 
         University</a>, we patented a technique to use blockchain bounties directly embedded into media files as a
     way to trace the origin of piracy. This turned out to be one of the earliest patents describing a use case
@@ -44,7 +44,7 @@
         types of media as well.</p>
     </details>
     <details>
-        <summary>Extra-Ordinary Associate Professor in Industrial Engineering at <b>Stellenbosch University</b></summary>
+        <summary><span>Extra-Ordinary Associate Professor in Industrial Engineering at <b>Stellenbosch University</b></span></summary>
         <p>In 2020 I briefly returned to <a href="https://www.sun.ac.za/">Stellenbosch University</a> as the 
             Research Chair in the Internet of Things. However, <a href="https://octoco.ltd">the Octoco Group</a> soon started
             growing rapidly and we co-founded <a href="https://fanfire.ai/">Fanfire</a>, where I took the helm. It
@@ -55,7 +55,7 @@
         topics as a small part of the Manufacturing Systems 314 module.</p>
     </details>
     <details>
-        <summary>Co-Founder of the <b>Media Lab</b> at Stellenbosch University</summary>
+        <summary><span>Co-Founder of the <b>Media Lab</b> at Stellenbosch University</span></summary>
         <p>In 2007, Stellenbosch University was approached by <a href="https://naspers.com/">Naspers</a> to drive postgraduate
             research in the emerging field of “New Media” — what we would today call Social Media and “Web2” technologies.
             We set up a lab that worked on pre-commercial applied research on topics such as Augmented Reality, Gaming, E-Commerce,
@@ -71,3 +71,30 @@
             Technologies</a>, which eventually spun out from the Lab.</p>
     </details>
 </section>
+
+<style>
+    .professional-roles {
+        display: grid;
+        gap: 0.75rem;
+    }
+
+    details {
+        margin: 0;
+        padding: 1rem 1.25rem;
+        border-radius: 0.5rem;
+        background-color: var(--pico-card-sectioning-background-color);
+    }
+
+    summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    summary::after {
+        flex: 0 0 auto;
+        margin-inline-start: 0;
+        float: none;
+    }
+</style>
