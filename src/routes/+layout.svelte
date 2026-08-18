@@ -20,6 +20,9 @@
                 <a href="/personal" class:active={page.url.pathname === '/personal'}>Personal</a>
             </li>
             <li>
+                <a href="/writing" class:active={page.url.pathname === '/writing'}>Writing</a>
+            </li>
+            <li>
                 <a href="/#contact">Contact</a>
             </li>
         </ul>

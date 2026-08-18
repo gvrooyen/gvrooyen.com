@@ -38,6 +38,22 @@ a.active {
 }
 
 @media (max-width: 576px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    header nav ul {
+        justify-content: center;
+        margin: 0;
+    }
+
+    header nav ul:last-of-type {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
     .bio {
         grid-template-columns: 1fr;
     }
